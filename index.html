@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دنیای دانش‌آموز | روز دانش‌آموز</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- منوی سایت -->
+    <header class="header">
+        <a href="#home" class="logo">🌱 دنیای دانش‌آموز</a>
+
+        <nav>
+            <a href="#home">خانه</a>
+            <a href="#dreams">آرزوها</a>
+            <a href="#memories">خاطرات</a>
+            <a href="#future">آینده</a>
+        </nav>
+
+        <a href="#dreams" class="nav-button">ثبت آرزو</a>
+    </header>
+
+    <!-- صفحه اصلی -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <span class="badge">✨ ویژه روز دانش‌آموز</span>
+
+            <h1>
+                دانش‌آموز امروز،
+                <br>
+                <span>سازنده‌ی دنیای فرداست</span>
+            </h1>
+
+            <p>
+                جایی برای ثبت آرزوها، خاطرات و ایده‌هایی
+                که آینده را زیباتر می‌کنند.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#dreams" class="primary-button">
+                    آرزوهای من
+                </a>
+
+                <a href="#memories" class="secondary-button">
+                    خاطرات مدرسه
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="visual-card">
+                <div class="visual-icon">🎓</div>
+                <h3>آینده از اینجا شروع می‌شود</h3>
+                <p>با یک رویا، یک ایده و یک قدم کوچک</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- بخش آرزوها -->
+    <section class="section" id="dreams">
+
+        <div class="section-title">
+            <span>💫 رویاهای بزرگ</span>
+            <h2>آرزوهای دانش‌آموزان</h2>
+            <p>هر آرزو، شروع یک مسیر تازه است.</p>
+        </div>
+
+        <div class="dream-cards">
+
+            <div class="dream-card">
+                <div class="card-icon">💻</div>
+                <h3>برنامه‌نویس شدن</h3>
+                <p>ساختن دنیایی با کدها و ایده‌های خلاقانه.</p>
+            </div>
+
+            <div class="dream-card">
+                <div class="card-icon">🎨</div>
+                <h3>طراح خلاق شدن</h3>
+                <p>تبدیل ایده‌ها به طرح‌هایی زیبا و متفاوت.</p>
+            </div>
+
+            <div class="dream-card">
+                <div class="card-icon">🚀</div>
+                <h3>ساختن آینده</h3>
+                <p>قدم برداشتن برای رسیدن به رویاهای بزرگ.</p>
+            </div>
+
+        </div>
+
+        <!-- فرم ثبت آرزو -->
+        <div class="wish-form">
+
+            <h3>✨ آرزوی تو برای آینده چیست؟</h3>
+
+            <form id="wishForm">
+                <input
+                    type="text"
+                    id="wishInput"
+                    placeholder="آرزوی خودت را اینجا بنویس..."
+                    maxlength="150"
+                    required
+                >
+
+                <button type="submit">ثبت آرزو</button>
+            </form>
+
+            <div id="wishList"></div>
+
+        </div>
+
+    </section>
+
+    <!-- بخش خاطرات تصویری -->
+    <section class="section memories" id="memories">
+
+        <div class="section-title">
+            <span>📸 لحظه‌های ماندگار</span>
+            <h2>خاطرات شیرین مدرسه</h2>
+            <p>بعضی لحظه‌ها همیشه در قلب ما می‌مانند.</p>
+        </div>
+
+        <div class="memory-gallery">
+
+            <div class="memory-card">
+                <img
+                    src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80"
+                    alt="کلاس درس"
+                >
+
+                <div class="memory-info">
+                    <span>📚</span>
+                    <h3>روزهای یادگیری</h3>
+                    <p>هر روز یک تجربه تازه</p>
+                </div>
+            </div>
+
+            <div class="memory-card">
+                <img
+                    src="https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=800&q=80"
+                    alt="دوستی دانش‌آموزان"
+                >
+
+                <div class="memory-info">
+                    <span>💜</span>
+                    <h3>دوستی‌های ماندگار</h3>
+                    <p>قشنگ‌ترین خاطرات با دوستان</p>
+                </div>
+            </div>
+
+            <div class="memory-card">
+                <img
+                    src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=800&q=80"
+                    alt="دانش‌آموزان در مدرسه"
+                >
+
+                <div class="memory-info">
+                    <span>✨</span>
+                    <h3>لحظه‌های شاد</h3>
+                    <p>خاطراتی که فراموش نمی‌شوند</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- بخش آینده فناوری -->
+    <section class="future-section" id="future">
+
+        <div class="future-content">
+            <span>🌐 آینده در دستان توست</span>
+
+            <h2>
+                از یک دانش‌آموز
+                <br>
+                تا یک خالق فناوری
+            </h2>
+
+            <p>
+                دنیای آینده با خلاقیت، یادگیری و تلاش ساخته می‌شود.
+                شاید ایده‌ی بزرگ بعدی، از ذهن تو شروع شود.
+            </p>
+
+            <div class="future-cards">
+
+                <div class="future-card">
+                    <span>🤖</span>
+                    <h3>هوش مصنوعی</h3>
+                    <p>خلق ایده‌های جدید با فناوری</p>
+                </div>
+
+                <div class="future-card">
+                    <span>💻</span>
+                    <h3>طراحی سایت</h3>
+                    <p>ساختن دنیای دیجیتال</p>
+                </div>
+
+                <div class="future-card">
+                    <span>🚀</span>
+                    <h3>نوآوری</h3>
+                    <p>تبدیل رویاها به واقعیت</p>
+                </div>
+
+            </div>
+
+            <a href="#home" class="primary-button">
+                شروع یک رویا
+            </a>
+        </div>
+
+    </section>
+
+    <!-- فوتر -->
+    <footer class="footer">
+
+        <h3>🌱 روز دانش‌آموز مبارک</h3>
+
+        <p>
+            برای تمام دانش‌آموزانی که رویاهای بزرگی در سر دارند.
+        </p>
+
+        <p class="footer-small">
+            طراحی شده با عشق و خلاقیت ❤️
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
